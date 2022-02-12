@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  a {
+    text-decoration: none;
+    /* color: white; */
+    cursor: pointer;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+  }
+  li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 3px;
+  }
+  button {
+    border: none;
+    background-color: aliceblue;
+  }
+  input {
+    border: none white;
+    border-radius: 5px;
+  }
+  input:focus {
+  outline: none;
+  }
+  ::placeholder {
+    text-align: center;
+  }
+  aside {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 5px 10px;
+    min-width: 270px;
+  }
+
+  p{
+    padding: 25px 0;
+    font-size: larger;
+  }
+  
+  main {
+    padding: 0 15px;
+  }
+  ::-webkit-scrollbar {
+    width: 10px; 
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--primary-backgroundColor); 
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color); 
+    border-radius: 10px; 
+  }
+  

@@ -1,0 +1,88 @@
+@import url("./Universal-selectores.css");
+:root {
+  --primary-backgroundColor: #070606;
+  --Secondry-backgroundColor: #373d38;
+  --primary-textColor: #acacac;
+  --primary-color: #6200ee;
+  --secondry-color: white;
+}
+.btn {
+  border-radius: 5px;
+  padding: 15px 15px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.overflow-box {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.primary-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px 20;
+}
+.center-content {
+  align-items: center;
+  justify-content: center;
+}
+.secondry-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.spacer {
+  width: 100%;
+  height: 20px;
+}
+.aria-hidden {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .aria-hidden {
+    display: flex;
+  }
+}
+.icons {
+  padding: 10px;
+  cursor: pointer;
+}
+.marginLeft {
+  margin-left: auto;
+}
+.active {
+  border-bottom: 3px solid var(--primary-color);
+}
+.active:focus {
+  color: var(--primary-color);
+}
+.bd-colr {
+  border: 2px solid var(--primary-textColor);
+  box-shadow: 3px 4px 8px 4px rgba(10, 10, 10, 0.2),
+    4px 6px 20px 5px rgba(0, 0, 0, 0.19);
+  /* filter: drop-shadow(
+    3px 4px 8px 4px rgba(10, 10, 10, 0.2),
+    -4px -6px -20px -5px rgba(0, 0, 0, 0.19)
+  ); */
+}
+.top-arrow {
+  position: absolute;
+  bottom: 9rem;
+  right: 2rem;
+}
+.aside-arrow {
+  position: absolute;
+  top: 9rem;
+  right: 2rem;
+}
+.nav-arrow {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
