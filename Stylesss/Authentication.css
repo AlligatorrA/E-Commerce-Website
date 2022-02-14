@@ -10,8 +10,13 @@
   width: 100%;
   padding: 15px 25px;
   font-size: medium;
+  color: rgb(0, 0, 0);
+}
+/* Namv bar */
+.nav-bar {
+  background-color: #121214;
+  justify-content: flex-start;
 }
 .create-acc-link {
-  background-color: rgb(104, 114, 255);
-  color: white;
+  background-color: var(--primary-color);
 }

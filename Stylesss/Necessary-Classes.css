@@ -1,7 +1,7 @@
 @import url("./Universal-selectores.css");
 :root {
   --primary-backgroundColor: #070606;
-  --Secondry-backgroundColor: #373d38;
+  --secondry-backgroundColor: #373d38;
   --primary-textColor: #acacac;
   --primary-color: #6200ee;
   --secondry-color: white;
@@ -9,8 +9,9 @@
 .btn {
   border-radius: 5px;
   padding: 15px 15px;
+  margin: 0 10px;
 }
-.container {
+.container-flex {
   display: flex;
   justify-content: space-between;
 }
@@ -50,8 +51,9 @@
   }
 }
 .icons {
-  padding: 10px;
+  margin: 2px;
   cursor: pointer;
+  color: white;
 }
 .marginLeft {
   margin-left: auto;
@@ -63,7 +65,7 @@
   color: var(--primary-color);
 }
 .bd-colr {
-  border: 2px solid var(--primary-textColor);
+  border: 2px solid var(--primary-color);
   box-shadow: 3px 4px 8px 4px rgba(10, 10, 10, 0.2),
     4px 6px 20px 5px rgba(0, 0, 0, 0.19);
   /* filter: drop-shadow(
@@ -85,4 +87,7 @@
   position: absolute;
   top: 1rem;
   right: 2rem;
+}
+.margin-all {
+  margin: 30px;
 }
