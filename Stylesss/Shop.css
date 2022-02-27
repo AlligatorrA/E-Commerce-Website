@@ -1,0 +1,54 @@
+.main-Container {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.Documentation-main {
+  display: grid;
+  grid-column: 4/10;
+  grid-row: 1/10;
+  margin: 20px 0px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 0px 0px;
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+  overflow-y: auto;
+  padding: 0px 0px;
+}
+.Documentation-aside {
+  grid-column: 1/4;
+  grid-row: 1/10;
+  background-color: var(--primary-backgroundColor);
+  margin: 10px 0px 0px 0px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 0 0 0px 0px;
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+  padding: 20px;
+  overflow: auto;
+}
+.font_1 {
+  font-size: 1.3em;
+}
+.check-box {
+  margin: 8px;
+}
+.main-body {
+  padding: 0 8px;
+}
+.Card-footer {
+  justify-content: space-between;
+  width: 340px;
+}
+.documentation-main {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  width: 70vw;
+  justify-content: center;
+}
+.background-img {
+  background-image: none;
+}
+.background-img > img {
+  object-fit: fill;
+}

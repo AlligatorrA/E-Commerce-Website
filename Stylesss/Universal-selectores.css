@@ -5,7 +5,6 @@
 }
 a {
   text-decoration: none;
-  color: var(--primary-color);
   cursor: pointer;
 }
 aside {
@@ -17,7 +16,7 @@ aside {
 }
 @media screen and (max-width: 800px) {
   * {
-    font-size: small;
+    font-size: medium;
   }
 }
 input {

@@ -1,10 +1,11 @@
 @import url("./Necessary-Classes.css");
 
-.form-box {
-  margin-top: 100px;
-  min-width: 450px;
+.login-box {
+  min-width: 350px;
+  min-height: 470px;
   border-radius: 15px;
-  padding: 10px 50px;
+  padding: 10px 40px;
+  position: relative;
 }
 .input-box {
   width: 100%;
@@ -19,4 +20,59 @@
 }
 .create-acc-link {
   background-color: var(--primary-color);
+}
+.space-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.profile_foot {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+}
+.avtar_height {
+  max-height: 500px;
+}
+
+/* ***********************************User_account_Profile******************* */
+
+.user_account_form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+@media screen and (max-width: 1000px) {
+  .product-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .user_account_form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+  .min_coln_flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* **************Wishlist CSS */
+.wishlist_page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+/* .container {
+  position: relative;
+  opacity: 0.33;
+} */
+.out-of-stock {
+  position: absolute;
+  top: 50%;
 }
